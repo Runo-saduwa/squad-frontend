@@ -1,0 +1,19 @@
+body {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: var(--bodyFontFamily);
+}
+
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --veryDarkCyan: hsl(192, 100%, 9%);
+    --veryPaleBlue: hsl(207, 100%, 98%);
+    --headingFontFamily: 'Poppins', sans-serif;
+    --bodyFontFamily: 'Open Sans', sans-serif;
+     --bolder: 700;
+     --bold: 600;
+     --light: 400;
+
+}

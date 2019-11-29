@@ -1,0 +1,26 @@
+
+.footerSvg {
+    background: url('../../images/bg-footer-top-mobile.svg');
+height: 50px;
+  background-repeat: no-repeat;
+  margin-bottom: -30px;
+
+}
+
+.footerContainer {
+  background: var(--veryDarkCyan);
+}
+.footerContainer h1 {
+
+}
+
+
+@media (min-width: 400px) {
+    .footerSvg {
+        background: url('../../images/bg-footer-top-desktop.svg');
+       height: 250px;
+      background-repeat: no-repeat;
+      margin-bottom: -120px;
+    
+    }
+}
